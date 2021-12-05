@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЧЕЛ ТЫЫЫЫЫЫЫ</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="col-xs-12">
+            <div class="navbar-header float-left">
+                <a href="./index3.html" class="navbar-brand">Наш сайт <i class="fa fa-unlock-alt"></i></a>
+            </div>
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="./index.html">Домой</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-xs-5">
+        <form action="#" method="#" id="form">
+            <div>
+                <label>
+                    Ваша дата рождения?
+                    <input type="date" name="name1">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Как зовут вашего лучшего друга?
+                    <input type="text" name="name2">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Какая ваша любимая книга?
+                    <input type="text" name="name3">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Ваш любимый цвет?
+                    <input type="text" name="name4">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Последние три цифры вашего номера телефона:
+                    <input type="number" name="name5" max="999">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="param-1"> Выберите длину пароля (<span id="password-length">8</span>)</label>
+                <input type="range" class="form-control" id="param-1" value="8" min="6" max="12">
+            </div>
+            <button type="button" id="generatePass" class="shiza" data-toggle="modal" data-target="#exampleModal">
+                Создать пароли
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ваши пароли: </h5>
+                            <button aria-label="Close" class="close" data-dismiss="modal" id='close2' type="button"
+                                    onclick="clear()">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="row">
+
+                            <div id="out">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/kod.js"></script>
+</div>
+</body>
+</html>
