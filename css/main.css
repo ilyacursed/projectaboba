@@ -1,9 +1,11 @@
-  form {
+@font-face {
+  font-family: 'Roboto';
+  src:url(../fonts/Roboto-Medium.ttf);
+}
+form {
     margin: 12px;
     margin-top: 120px;
 }
-
-
 body {
   background: linear-gradient(#0572ec 70px,#66d9ff);
     color: #fff;
@@ -41,7 +43,7 @@ height: 100%;
 }
 .navbar-inversed .navbar-brand:hover {
   color: #ff496c;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   font-size: 22px;
   letter-spacing: 1px;
@@ -49,9 +51,9 @@ height: 100%;
 .navbar-brand{
   font-size: 30px;
   color: white;
-      font-family: 'Roboto Slab',cursive;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
-      transition: .5s;
+  transition: .5s;
 }
 
 .active{
@@ -59,25 +61,25 @@ height: 100%;
   color: #ffffff;
   border: 2px;
   border-radius: 20px;
-      font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
-      transition: .2s;
-      position: relative;
+  transition: .2s;
+  position: relative;
   margin-top: 10px;
 
 }
 .active:hover{
   color: #dddddd;
-      font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
-      transition: .2s;
+  transition: .2s;
 }
 .neshiza {
   text-decoration: none;
   display: inline-block;
   padding: 40px 70px;
   border-radius: 30px;
-  font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -97,7 +99,7 @@ height: 100%;
   background-color:  #dee0e3;
 }
 li {
-  font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   color: #fff;
   position: relative;
@@ -106,7 +108,7 @@ li {
   margin-top: 80px;
 }
 h1 {
-  font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin-top: 150px;
   font-size:  60px;
@@ -120,7 +122,7 @@ h1 {
       border-radius: 60px;
       color: #fff;
       display: inline-block;
-      font-family: 'Roboto Slab', cursive;
+      font-family: 'Roboto', sans-serif;
       font-size: 25px;
       line-height: 1.5;
       text-align: center;
@@ -140,7 +142,7 @@ label{
   margin-bottom: 25px;
   color: #fff;
   width: 100%;
-  font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 input{
@@ -183,7 +185,7 @@ color: #000000;
   pointer-events: none;
   border: 30px;
   border-radius: 330px;
-  font-family: 'Roboto Slab', cursive;
+  font-family: 'Roboto', sans-serif;
   text-indent:30px;
   font-size: 20px;
   text-align: center;
@@ -192,7 +194,7 @@ color: #000000;
   .modal-dialog {
     width: 450px;
     margin: 30px auto;
-    font-family: 'Roboto Slab', cursive;
+    font-family: 'Roboto', sans-serif;
     text-indent:30px;
     font-size: 20px;
   }
